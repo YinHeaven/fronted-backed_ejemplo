@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Ingresa el usuario</h1>
+        <form id="loginForm">
+            <label for="dato1">User:</label>
+            <input type="text" id="dato1" name="dato1" placeholder="Escribe tu usuario" required>
+            <br><br>
+            <label for="dato2">Password:</label>
+            <input type="password" id="dato2" name="dato2" placeholder="Escribe tu contraseña" required>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+        <h2 id="mensaje"></h2>
+        <button type="button" id="showPassword">Mostrar contraseña</button>
+    </div>
+    <script src="backend-interfaz.js"></script>
+</body>
+</html>
